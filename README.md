@@ -43,63 +43,53 @@ Este proyecto es una API REST simple construida con **Node.js**, diseñada para 
 ## 📂 Estructura del proyecto
 
 products-api/  
-│ .env
-│ .gitignore
-│ docker-compose.yml
-│ package-lock.json
-│ package.json
-│ README.md
-│ tsconfig.json
+│    .env
+│    .gitignore
+│    docker-compose.yml
+│    package-lock.json
+│    package.json
+│    README.md
+│    tsconfig.json
 │
 └───src
-│ index.ts
+│    index.ts
 │
 ├───config
-│ database.config.ts
+│    database.config.ts
 │
 ├───controllers
-│ auth.controller.ts
-│ product.controller.ts
+│    auth.controller.ts
+│    product.controller.ts
 │
 ├───interfaces
-│ product.interface.ts
-│ user.interface.ts
+│    product.interface.ts
+│    user.interface.ts
 │
 ├───middlewares
-│ httpErrorHandle.middleware.ts
-│ jwt.middleware.ts
+│    httpErrorHandle.middleware.ts
+│    jwt.middleware.ts
 │
 ├───models
-│ product.model.ts
-│ user.model.ts
+│    product.model.ts
+│    user.model.ts
 │
 ├───routes
-│ auth.route.ts
-│ product.route.ts
+│    auth.route.ts
+│    product.route.ts
 │
 ├───schemas
-│ auth.schema.ts
-│ product.schema.ts
+│    auth.schema.ts
+│    product.schema.ts
 │
 ├───services
-│ auth.service.ts
-│ product.service.ts
-│ user.service.ts
+│    auth.service.ts
+│    product.service.ts
+│    user.service.ts
 │
 └───utils
-auth.util.ts
-httpError.util.ts
+     auth.util.ts
+     httpError.util.ts
 
-
-.
-├── ...
-├── docs                    # Documentation files (alternatively `doc`)
-│   ├── TOC.md              # Table of contents
-│   ├── faq.md              # Frequently asked questions
-│   ├── misc.md             # Miscellaneous information
-│   ├── usage.md            # Getting started guide
-│   └── ...                 # etc.
-└── ...
 
 ## 👨‍💻 Desarrollo
 
